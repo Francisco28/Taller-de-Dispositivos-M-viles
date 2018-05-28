@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/media/francisco/cd76605d-5c9f-4009-ae57-9f933dd2fe0d/home/francisco/MOVILES/AnimationEvents/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "/media/francisco/cd76605d-5c9f-4009-ae57-9f933dd2fe0d/home/francisco/MOVILES/AnimationEvents/app/src/main/res/values-w820dp/dimens.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "295",
+                        "endColumns": "57",
+                        "endOffsets": "348"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "57",
+                        "endOffsets": "108"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pablo.a211persistenciabsica5.MainActivity">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="320dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="19dp"
+        android:layout_marginTop="19dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_hobbies"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_gender">
+
+        <RadioButton
+            android:id="@+id/rb_male"
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:selectAllOnFocus="false"
+            android:text="Male"
+            tools:layout_editor_absoluteX="194dp"
+            tools:layout_editor_absoluteY="216dp" />
+
+        <RadioButton
+            android:id="@+id/rb_female"
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Female"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="194dp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Save me"
+        app:layout_constraintStart_toStartOf="@+id/sp_zodiac"
+        app:layout_constraintTop_toBottomOf="@+id/sp_zodiac" />
+
+    <Button
+        android:id="@+id/btn_get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="62dp"
+        android:layout_marginTop="15dp"
+        android:text="Get me"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sp_zodiac" />
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:text="Email"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/tv_email"
+        app:layout_constraintTop_toBottomOf="@+id/tv_email" />
+
+    <TextView
+        android:id="@+id/tv_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="83dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="80dp"
+        android:text="Gender"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_hobbies"
+        app:layout_constraintStart_toStartOf="@+id/radioGroup"
+        app:layout_constraintTop_toTopOf="@+id/tv_email" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="16dp"
+        android:text="Shared Preferences"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_hobbies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="227dp"
+        android:text="Hobbies"
+        app:layout_constraintStart_toStartOf="@+id/radioGroup"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/ckb_coding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="Coding"
+        app:layout_constraintStart_toStartOf="@+id/tv_hobbies"
+        app:layout_constraintTop_toBottomOf="@+id/tv_hobbies" />
+
+    <CheckBox
+        android:id="@+id/ckb_writing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Writing"
+        app:layout_constraintStart_toStartOf="@+id/ckb_coding"
+        app:layout_constraintTop_toBottomOf="@+id/ckb_coding" />
+
+    <CheckBox
+        android:id="@+id/ckb_jogging"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="19dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="28dp"
+        android:text="Jogging"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_zodiac"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ckb_writing"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/tv_zodiac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginStart="36dp"
+        android:text="Zodiac"
+        app:layout_constraintBottom_toTopOf="@+id/sp_zodiac"
+        app:layout_constraintEnd_toEndOf="@+id/ckb_writing"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/sp_zodiac"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="116dp"
+        android:layout_marginTop="117dp"
+        android:contextClickable="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btn_get"
+        app:layout_constraintStart_toStartOf="@+id/tv_zodiac"
+        app:layout_constraintTop_toBottomOf="@+id/tv_hobbies" />
+
+</android.support.constraint.ConstraintLayout>

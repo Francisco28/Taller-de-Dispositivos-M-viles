@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NumeroMultiplicativoSeekBar</string>
+
+    <string name="primer_texto">Seleccione una número para calcular:</string>
+    <string name="segundo_texto"></string>
+    <string name="tercer_texto">Calcular</string>
+
+</resources>

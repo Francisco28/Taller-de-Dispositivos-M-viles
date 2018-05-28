@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NumeroMultiplicativo</string>
+    <string name="primer_texto">Ingrese una tabla que desee calcular:</string>
+    <string name="segundo_texto"></string>
+    <string name="tercer_texto">Calcular</string>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="zodiac_array">
+        <item>Geminis</item>
+        <item>Cancer</item>
+        <item>Virgo</item>
+        <item>Piscis</item>
+        <item>Tauro</item>
+    </string-array>
+</resources>
